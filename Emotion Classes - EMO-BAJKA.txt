@@ -1,0 +1,8 @@
+EMO-BAJKA
+1-joy  
+2-sadness  
+3-surprise  
+4-neutral  
+5-anger  
+6-fear  
+7-boredom
