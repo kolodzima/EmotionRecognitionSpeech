@@ -39,3 +39,30 @@ No utterances or speakers from the training set are included in the test set, en
 | `cechy_all`            | 3399 × 99  | Full dataset: 96 features, 1 label, and 2 additional metadata columns       |
 
 Each row corresponds to a segmented speech sample. The first 96 columns contain acoustic features, while the last column represents the emotion label. In `cechy_all`, additional columns may contain speaker IDs or class names.
+
+# Emotion Label Mapping
+
+### EMO-BAJKA (Polish)
+| Label | Emotion   |
+|-------|-----------|
+| 1     | Joy       |
+| 2     | Sadness   |
+| 3     | Surprise  |
+| 4     | Neutral   |
+| 5     | Anger     |
+| 6     | Fear      |
+| 7     | Boredom   |
+
+### RAVDESS (English)
+| Label | Emotion    |
+|-------|------------|
+| 1     | Angry      |
+| 2     | Calm       |
+| 3     | Disgust    |
+| 4     | Fearful    |
+| 5     | Happy      |
+| 6     | Neutral    |
+| 7     | Sad        |
+| 8     | Surprised  |
+
+
