@@ -3,6 +3,10 @@
 The dataset includes features extracted from two databases: RAVDESS and EMO-BAJKA. An important aspect of its structure is the division into three independent subsets: training, validation, and test. 
 The split was performed in such a way that no features or utterances from individuals present in the training set appear in the test set. This design supports research on emotion classification in a subject-independent setting.
 
+# Citation and Reference
+
+The details of the database and the methods used for feature extraction are described in the following publication:
+
 # Dataset Description
 The dataset includes features extracted from two databases: RAVDESS and EMO-BAJKA. It contains the following files:
 
@@ -16,7 +20,7 @@ The dataset includes features extracted from two databases: RAVDESS and EMO-BAJK
 
 - FeatureDescription.mat – file containing descriptions of all extracted features.
 
-- #  Structure and Partitioning
+#  Structure and Partitioning
 
 The dataset is divided into three independent subsets:
 
@@ -36,10 +40,3 @@ No utterances or speakers from the training set are included in the test set, en
 | `cechy_all`            | 3399 × 99  | Full dataset: 96 features, 1 label, and 2 additional metadata columns       |
 
 Each row corresponds to a segmented speech sample. The first 96 columns contain acoustic features, while the last column represents the emotion label. In `cechy_all`, additional columns may contain speaker IDs or class names.
-
-
-
-
-
-
-
