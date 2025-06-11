@@ -16,7 +16,7 @@ The dataset includes features extracted from two databases: RAVDESS and EMO-BAJK
 
 - FeatureDescription.mat – file containing descriptions of all extracted features.
 
-- ## 🧪 Structure and Partitioning
+- #  Structure and Partitioning
 
 The dataset is divided into three independent subsets:
 
@@ -37,11 +37,7 @@ No utterances or speakers from the training set are included in the test set, en
 
 Each row corresponds to a segmented speech sample. The first 96 columns contain acoustic features, while the last column represents the emotion label. In `cechy_all`, additional columns may contain speaker IDs or class names.
 
-## 💻 Loading the Data in MATLAB
 
-```matlab
-load('EMO-BAJKA_speech_features_1s_window_0.1s_overlap.mat')
-load('RAVDESS_speech_features_1s_window_0.1s_overlap.mat')
 
 
 
