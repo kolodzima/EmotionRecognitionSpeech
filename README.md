@@ -5,6 +5,7 @@ The dataset contains data extracted from two sources: RAVDESS and EMO-BAJKA. An 
 # Citation and Reference
 
 The details of the database and the methods used for feature extraction are described in the following publication:
+Majkowski, Andrzej, and Marcin Kołodziej. 2025. "Emotion Recognition from Speech in a Subject-Independent Approach" Applied Sciences 15, no. 13: 6958. https://doi.org/10.3390/app15136958
 
 # Dataset Description
 The dataset includes features extracted from two databases: RAVDESS and EMO-BAJKA. It contains the following files:
